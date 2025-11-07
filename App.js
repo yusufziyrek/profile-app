@@ -10,19 +10,19 @@ export default function App() {
       </View>
       <ScrollView contentContainerStyle={styles.list} showsVerticalScrollIndicator={false}>
         <ProfileCard
-          name="Ada Lovelace"
-          role="Mathematician"
-          imageSource={require('./assets/ada.png')}
+          name="Yusuf Ziyrek"
+          role="Software Developer"
+          imageSource={require('./assets/resim1.png')}
         />
         <ProfileCard
-          name="Grace Hopper"
-          role="Computer Scientist"
-          imageSource={require('./assets/grace.png')}
+          name="Mehmet Akif Yılmaz"
+          role="Software Developer"
+          imageSource={require('./assets/resim2.png')}
         />
         <ProfileCard
-          name="Hedy Lamarr"
-          role="Inventor"
-          imageSource={require('./assets/hedy.png')}
+          name="Muhammed Cengin Gökakın"
+          role="philosopher"
+          imageSource={require('./assets/resim3.png')}
         />
       </ScrollView>
     </SafeAreaView>
